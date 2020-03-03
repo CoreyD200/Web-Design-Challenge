@@ -3,11 +3,11 @@
 body {
   font-family: Georgia;
   font-size: 1.1em;
-  background-color:#94a9ec;
+  background-color:#bfeaf5;
 }
 
 .navbar-light .navbar-brand {
-  color: #c3e3eb;
+  color: whitesmoke;
 }
 
  .navbar {
@@ -20,7 +20,7 @@ body {
   font-family: 'Georgia';
   font-size: 25px;
   font-weight: bolder;
-  background-color: rgb(10, 2, 54);
+  background-color: #94a9ec;
   padding: 10px;
   margin-left: 5%;
 }
@@ -31,19 +31,11 @@ body {
   font-size: small;
 }
 
-.nav-item {
-  font-weight: bold;
-  text-decoration-color: whitesmoke;
-}
 
 .content {
   width:90%;
   margin: 20px auto;
   padding:1em;
-}
-  
-.buttons {
-  margin-bottom: .5em;
 }
 
 .text-left {
@@ -57,11 +49,6 @@ body {
   color: rgb(18, 26, 136);
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
-}
-
-p:not(.intro) {
-  text-align: justify;
-  color: #7e7e7e;
 }
 
 .img-thumbnail {
@@ -79,6 +66,13 @@ p:not(.intro) {
     float: left;
 }
 
+.sub-image {      
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  float: left;
+}
+
 .col-md-8 {
   background-color: white;
   border : 20px solid #94a9ec;
@@ -93,26 +87,25 @@ div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
   width: 100%;
 }
 
-.imagetiles {
-  background-color: white;
-}
-div.imagetiles div.col-lg-6.col-sm-12 img {
-  width: 100%;
-}
-
-div.col-sm-12.col-md-12 p {
+ div.col-sm-12.col-md-12 p {
   color: black;
   font-size: medium;
-}
-
-.panel-body:hover {
-  border-color: blueviolet;
-  border: 50px;
-}
+  scroll-snap-align: center;
+} 
 
 .visuals {
   text-align: center;
   color: rgb(20, 150, 150);
   font-family: 'Georgia';
   font-weight: regular;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+tr {
+  text-align: center
 }
